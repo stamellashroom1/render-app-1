@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 app.get('/test', (req, res) => {
     res.json({
         message: "Test functional",
-        timestamp: Date.now()
+        timestamp: new Date.now()
     });
 });
 
